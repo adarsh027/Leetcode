@@ -24,7 +24,7 @@ Solution().subArraySum([15,3,4,8,9,7,14,23],7)
 #ref: https://www.youtube.com/watch?v=bWym1dWZhh0
 #ref: https://www.youtube.com/watch?v=YkacnIOt2jM
 class Solution:
-    def subarraysum(self, arr,k):
+    def subarraySum(self, arr,k):
         count=0 # count of subarrays having given sum
         cur_sum = 0
         prefix_sums={} #stores prefix sum and its corresponding count
@@ -46,7 +46,7 @@ Solution().subarraysum([1,3,3,4,8,9,6,23,15],24)
 # slight variation of the above
 #Find start and end index of the subarray that sums to k
 class Solution:
-    def subarraysum(self, arr,k):
+    def subarraySum(self, arr,k):
         cur_sum = 0
         prefix_sums={} #stores cur_sum and its corresponding index
         start=0
