@@ -35,7 +35,6 @@ class Solution:
         """
         Do not return anything, modify arr in-place instead.
         """
-        left = 0
         i=0
         while i < len(arr)-1:
             if arr[i]==0:
